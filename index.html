@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nested Comments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <div class="root">
+      <h3>My Post</h3>
+      <h5>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      </h5>
+
+      <!-- previous working code -->
+      <!-- -------------------- -->
+      <!-- <div style="margin: 1em">
+        <input id="inputComment" type="text" placeholder="Type Comment Here" />
+        <button id="postCommentButton">post</button>
+        <div id="container" class="container"></div>
+      </div> -->
+      <!-- ---------------------- -->
+
+      <div style="margin: 1em">
+        <div id="input-section">
+          <input type="text" id="input-field" />
+          <button id="submit-button">Submit</button>
+        </div>
+        <div id="comments-section"></div>
+      </div>
+      <!-- ---------------- -->
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
