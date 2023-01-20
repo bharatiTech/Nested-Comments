@@ -31,19 +31,37 @@ body {
   border: 1px solid #fff;
 }
 
-.icons {
-  width: 15px;
-  height: 15px;
-  cursor: pointer;
-  margin: 2px;
-}
-
 .displayNone {
   display: none;
 }
 
 .displayBlock {
   display: block;
+}
+
+#input-field {
+  padding: 5px;
+  border-radius: 5px;
+}
+#input-field:hover {
+  border: 2px solid lightseagreen;
+}
+
+#submit-button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+#submit-button:hover {
+  border: 2px solid lightseagreen;
+}
+
+.icons {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin: 2px;
 }
 
 .commentContainer {

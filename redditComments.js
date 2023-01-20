@@ -1,6 +1,6 @@
 class CommentElements {
-  constructor(text) {
-    this.text = text;
+  constructor(commentText) {
+    this.commentText = commentText;
   }
 
   createCommentContainer() {
@@ -11,13 +11,11 @@ class CommentElements {
   }
 
   createCommentContents() {
-    console.log("text===> ", this.text);
-
     let replyText = document.createElement("p");
     let replyButton = document.createElement("b");
     let deleteButton = document.createElement("img");
 
-    replyText.innerText = this.text;
+    replyText.innerText = this.commentText;
 
     deleteButton.src = "./images/replyDeleteFilled.png";
     deleteButton.classList.add("icons");
